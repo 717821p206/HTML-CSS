@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+    <h2>Nature</h2>
+    <p>Nature, in the broadest sense, is equivalent to the natural world, physical world, or material world. "Nature" refers to the phenomena of the physical world, and also to life in general.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Animals</h2>
+    <p>Animals are multicellular eukaryotes whose cells are bound together by collagen. Animals dominate human conceptions of life on Earth because of their size, diversity, abundance, and mobility.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Birds</h2>
+    <p>Birds are very special animals that have particular characteristics which are common amongst all of them. For instance, all of them have feathers, wings and two legs.</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+

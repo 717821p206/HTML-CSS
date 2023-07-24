@@ -1,0 +1,39 @@
+.form{
+  width: 500px;
+  margin: 250px auto;
+  background-color:darkgray;
+  color: black;
+  padding: 25px 50px 50px 50px;
+  border-style: groove;
+  border-radius: 20px;
+  border-color: blueviolet;
+.heading{
+   color: rgb(6, 15, 17);
+   text-decoration-line:underline ;
+  
+}
+.name{
+  padding-bottom: 15px;
+ 
+}
+.pwd{
+  padding-bottom: 15px;
+}
+.skill{
+  padding-bottom: 15px;
+}
+.gdr{
+  padding-bottom: 15px;
+}
+.drp{
+  padding: auto;
+}
+.dob{
+  padding-bottom: 15px;
+}
+.button{
+    text-align: center;
+    background-color: rgb(35, 49, 28);
+    padding: 10px;
+    color: aliceblue;
+}
